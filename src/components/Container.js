@@ -1,110 +1,149 @@
 import React, { Component } from "react";
-// import bodyForm from "./pages/bodyForm";
-// import home from "./pages/home";
-// import location from "./pages/location";
-// import diet from "./pages/diet";
-// import Contarect from "./pages/Contact";
 
-import tiger from "./img/bengal-tiger-b.jpg";
 
+import * as Scroll from "react-scroll";
+import {
+  Link,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll";
+
+// import Home from "./pages/home";
+// import Classification from "./pages/classification";
+// import Habitat from "./pages/habitat";
+// import Formation from "./pages/formation";
+// import Diet from "./pages/diet";
+// import Reproduction from "./pages/reproduction";
+// import LifeSpan from "./pages/lifespan";
+// import FunFacts from "./pages/funfacts";
+// import EconImp from "./pages/econimp";
+
+
+import icon1 from "./img/icons/tropical-1.png";
+import icon2 from "./img/icons/tropical-2.png";
+import icon3 from "./img/icons/tropical-3.png";
+import icon4 from "./img/icons/tropical-4.png";
+import icon5 from "./img/icons/tropical-5.png";
+import icon6 from "./img/icons/tropical-6.png";
 
 export default function Container() {
-//   const [currentPage, setCurrentPage] = useState("home");
+    // const [currentPage, setCurrentPage] = useState("Home");
 
   
-//   const renderPage = () => {
-//     if (currentPage === "home") {
-//       return <Home />;
-//     }
-//     if (currentPage === "bodyForm") {
-//       return <About />;
-//     }
-//     if (currentPage === "Projects") {
-//       return <Projects />;
-//     }
-//     if (currentPage === "Contact") {
-//       return <Contact />;
-//     }
-//   };
+    // const renderPage = () => {
+    //   if (currentPage === "Home") {
+    //     return <Home />;
+    //   }
+    //   if (currentPage === "Classification") {
+    //     return <Classification />;
+    //   }
+    //   if (currentPage === "Formation") {
+    //     return <Formation />;
+    //   }
+    //   if (currentPage === "Habitat") {
+    //     return <Habitat />;
+    //   }
+    //   if (currentPage === "Diet") {
+    //     return <Diet />;
+    //   }
+    //   if (currentPage === "Reproduction") {
+    //     return <Reproduction />;
+    //   }
+    //   if (currentPage === "LifeSpan") {
+    //     return <LifeSpan />;
+    //   }
+    //   if (currentPage === "FunFacts") {
+    //     return <FunFacts />;
+    //   }
+    //   if (currentPage === "EconImp") {
+    //     return <EconImp />;
+    //   }
 
-//   const handlePageChange = (page) => setCurrentPage(page);
+    // };
+  
+    // const handlePageChange = (page) => setCurrentPage(page);
 
-//   return (
-//     <div>
-//       <ul className="nav">
-//         <li className="nav-item">
-//           <a href="#home"
-//           onClick={() => handlePageChange('Home')}
-//           className={currentPage === 'Home'}>
-//             <img src={crown} alt="crown logo" className="crown"></img>
-//           </a>
-//         </li>
-//       </ul>
+  return (
+    <div className="row">
+      <span className="lpanel"></span>
+      <figure>
+        <figcaption className="heading">
+          <span>
+            <span>BEN</span>
+            <span>GAL</span>
+            <br />
+            <span>TIG</span>
+            <span>ER</span>
+          </span>
+        </figcaption>
 
-      
-//       <div className='row'>
-//       <div className='col-xxl-6'>
-//       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-//       </div>
-//       <div className='col-xxl-6'>
-//       {renderPage()}
-//       </div>
-//       </div>
-      
-      
+        <span className="square">
+          <figcaption className="names">
+            <span>Katelyn</span> <span>King</span> <br />
+            <span>Jhanvi</span> <span>Patel</span>
+          </figcaption>
 
-//       <div className="footer">
-//         <a
-//           target="_blank"
-//           rel="noreferrer"
-//           href="https://www.linkedin.com/in/katelyn-king112/"
-//         >
-//           linked in{" "}
-//         </a>
-//         •
-//         <a
-//           target="_blank"
-//           rel="noreferrer"
-//           href="https://github.com/katelynking"
-//         >
-//           {" "}
-//           github{" "}
-//         </a>
-//         •<a href="mailto:katelynking112@gmail.com"> email </a>•
-//         <a 
-//           target="_blank"
-//           rel="noreferrer"
-//           href={resume}> resume </a>
-//       </div>
-//     </div>
-//   );
-// }
+          <figcaption className="bio">
+            <span>Biology</span> <span>II</span>
+            <br />
+            <span>Professor</span> <span>Manar</span> <span>Soliman</span>
+          </figcaption>
+        </span>
 
-return (
-<div className="row">
-    <figure>
-   <img src={tiger} alt="Bengal Tiger"></img>
-<figcaption className="heading">
-    <span>
-    <span>BEN</span><span>GAL</span><br/>
-    <span>TIG</span><span>ER</span>
-    </span>
-    
-</figcaption>
+        <span className="rectangle">
+          <span className="spacing">
+            <span className="centered grow">
+              <a href="#classification">
+                <img src={icon1} className="icons"></img>
+                <span className="titles">CLASSIFICATION</span>
+              </a>
+            </span>
 
-<figcaption className="names">
-    <span>
-    Katelyn</span> <span>King</span>  <br/>
-    <span>Jhanvi</span> <span>Patel</span> 
-</figcaption>
+            <span className="centered grow">
+              <a href="#">
+                <img src={icon2} className="icons"></img>
+                <span className="titles">FORMATION</span>
+              </a>
+            </span>
 
-<figcaption className="bio">
-    <span>Biology</span> <span>II</span><br/>
-    <span>Professor</span> <span>Manar</span> <span>Soliman</span>
-</figcaption>
-</figure>
+            <span className="centered grow">
+              <a href="#">
+                <img src={icon3} className="icons"></img>
+                <span className="titles">HABITAT</span>
+              </a>
+            </span>
 
-</div>
-    
-);
+            <span className="centered grow">
+              <a href="#">
+                <img src={icon4} className="icons"></img>
+                <span className="titles">DIET</span>
+              </a>
+            </span>
+
+            <span className="centered grow">
+              <a href="#">
+                <img src={icon5} className="icons"></img>
+                <span className="titles">REPRODUCTION</span>
+              </a>
+            </span>
+
+            <span className="centered grow">
+              <a href="#">
+                <img src={icon6} className="icons"></img>
+                <span className="titles">LIFE SPAN</span>
+              </a>
+            </span>
+
+
+
+          </span>
+        </span>
+      </figure>
+    </div>
+  );
 }
+

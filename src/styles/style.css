@@ -1,19 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?&family=Montserrat:wght@300;400&family=League+Spartan:wght@900&family=Lexend+Zetta&family=Sulphur+Point:wght@700&family=Quicksand:wght@600&display=swap');
 
-.lpanel {
-    background-color: black;
+
+
+body {
+  background-image: url(/src/components/img/bengal-tiger.jpg);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  height:100%;
 }
 
-img {
-   width: 100%;
+.lpanel {
+  left:0;
+  width: 20.45vw;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  z-index:0;
+  position:absolute;
+}
+
+.tiger-img {
+   width:100%;
    height:auto;
    margin:0px;
    padding:0px;
+   position:absolute;
+   left:0;
+   
 }
+
+
 
 .tiger {
     padding:0px;
     margin:0px;
+
 }
 
 figure {
@@ -45,36 +66,44 @@ span {
 }
 
 span:nth-child(1) {
-    animation: fade-in 1.0s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 0.5s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
   }
   span:nth-child(2) {
-    animation: fade-in 1.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 1.0s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
   }
   span:nth-child(3) {
-    animation: fade-in 1.5s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 1.2s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
   }
   span:nth-child(4) {
-    animation: fade-in 2.0s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 1.5s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
   }
   span:nth-child(5) {
-    animation: fade-in 3.0s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 1.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
   }
   span:nth-child(6) {
-    animation: fade-in 3.5s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 2.0s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
   }
   span:nth-child(7) {
-    animation: fade-in 4.0s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 2.2s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
   }
   span:nth-child(8) {
-    animation: fade-in 4.5s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 2.4s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
   }
   span:nth-child(9) {
-    animation: fade-in 5.0s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 2.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
   }
   span:nth-child(10) {
-    animation: fade-in 5.5s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 2.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
   }
-
+  span:nth-child(11) {
+    animation: fade-in 2.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  span:nth-child(12) {
+    animation: fade-in 3.0s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  span:nth-child(13) {
+    animation: fade-in 3.0s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
   @keyframes fade-in {
     100% {
       opacity: 1;
@@ -82,9 +111,71 @@ span:nth-child(1) {
     }
   }
 
+  .square {
+    top:72.5%;
+    left:0;
+    width: 20.45vw;
+    height: 28%;
+    background-color: green;
+    z-index:2;
+    position:absolute;
+  }
+
+  .rectangle {
+    top:72.5%;
+    right:0;
+    width:100%;
+    height:28%;
+    z-index:1;
+    position:absolute;
+    background-color:rgba(255, 255, 255, 0.688);
+    color:gray;
+  }
+
+  .icons {
+    width:14vh;
+    display:inline-block;
+    position: relative;
+  }
+
+  .centered {
+    justify-content: center;
+    text-align:center;
+    padding:2%;
+  }
+
+  .titles {
+    display:block;
+    font-size:2.5vh;
+    font-family:'League Spartan';
+  }
+
+  a {
+    color:rgb(3, 140, 203);
+    text-align:center;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color:rgb(231, 131, 16);
+    
+  }
+
+  .spacing {
+    position:absolute;
+    width:100%;
+    left:23%;
+  }
+
+  .grow { transition: all .2s ease-in-out; }
+  
+  .grow:hover { transform: scale(1.1); }
+
+
   .names {
     position: absolute;
-    bottom: 8rem;
+    bottom: 5rem;
     left: 3%;
     color:white;
     font-size: 2vw;
@@ -92,12 +183,13 @@ span:nth-child(1) {
     font-variant:all-small-caps;
     line-height:2vw;
     letter-spacing: 0.3vw;
-    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1)
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+    z-index:0; 
   }
 
   .bio {
     position: absolute;
-    bottom: 3rem;
+    bottom: 1rem;
     left: 3%;
     color:white;
     font-size: 1.5vw;
@@ -105,5 +197,23 @@ span:nth-child(1) {
     font-variant:all-small-caps;
     line-height:1.5vw;
     animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1)
+  }
+
+
+  .sidePanel {
+    left:0;
+    width: 20.45vw;
+    bottom:0;
+    height: 100%;
+    background-color: green;
+    z-index:0;
+    position:relative;
+  }
+
+  .infoPage {
+    background-color:black;
+    color:white;
+    z-index:0;
+    position:absolute;
   }
 
