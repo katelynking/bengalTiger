@@ -3,12 +3,13 @@ import React from "react";
 
 export default function Formation() {
     return (
-<div className='row'>
+<section id='formation'>
 <span className='infoPage'>
+    <h1>BODY FORMATION</h1>
 
 
 
 </span>
-</div>
+</section>
     );
 }
