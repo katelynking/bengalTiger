@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/bengalTiger/static/css/main.b765d693.css",
+    "main.js": "/bengalTiger/static/js/main.b3aeb199.js",
+    "static/media/bengal-tiger.jpg": "/bengalTiger/static/media/bengal-tiger.92c3a79b7e0656a4fc6a.jpg",
+    "static/media/flowers-r.png": "/bengalTiger/static/media/flowers-r.c740b518253878ad4fd5.png",
+    "static/media/flowers-l.png": "/bengalTiger/static/media/flowers-l.3ee143943a339c8382f5.png",
+    "static/media/ungulates.png": "/bengalTiger/static/media/ungulates.4c054dc3da995db44712.png",
+    "static/media/tropical-1.png": "/bengalTiger/static/media/tropical-1.a1927cc9ec342a739215.png",
+    "static/media/india.png": "/bengalTiger/static/media/india.accf88fb75d4e65bdfa6.png",
+    "static/media/tropical-6.png": "/bengalTiger/static/media/tropical-6.f63daecea317922899cd.png",
+    "static/media/tropical-2.png": "/bengalTiger/static/media/tropical-2.9be8f1728c57a7b09eb9.png",
+    "static/media/tropical-5.png": "/bengalTiger/static/media/tropical-5.c30c65ef0e92401942d1.png",
+    "static/media/tropical-3.png": "/bengalTiger/static/media/tropical-3.ef9f115e1aad82e5de41.png",
+    "static/media/tropical-4.png": "/bengalTiger/static/media/tropical-4.a5cc59db282c1aa6efc4.png",
+    "static/media/bangladesh.png": "/bengalTiger/static/media/bangladesh.bb51a6e0cb0aa80f79c9.png",
+    "static/media/map.png": "/bengalTiger/static/media/map.683618d503c021642f56.png",
+    "static/media/tiger.png": "/bengalTiger/static/media/tiger.a63dfbbee9dcc36ff6a6.png",
+    "static/media/bengal-tiger-cub.jpeg": "/bengalTiger/static/media/bengal-tiger-cub.0e4b719a5c6aafdf7906.jpeg",
+    "index.html": "/bengalTiger/index.html",
+    "main.b765d693.css.map": "/bengalTiger/static/css/main.b765d693.css.map",
+    "main.b3aeb199.js.map": "/bengalTiger/static/js/main.b3aeb199.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b765d693.css",
+    "static/js/main.b3aeb199.js"
+  ]
+}
