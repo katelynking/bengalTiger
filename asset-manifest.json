@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bengalTiger/static/css/main.b765d693.css",
-    "main.js": "/bengalTiger/static/js/main.b3aeb199.js",
+    "main.js": "/bengalTiger/static/js/main.66c4a030.js",
     "static/media/bengal-tiger.jpg": "/bengalTiger/static/media/bengal-tiger.92c3a79b7e0656a4fc6a.jpg",
     "static/media/flowers-r.png": "/bengalTiger/static/media/flowers-r.c740b518253878ad4fd5.png",
     "static/media/flowers-l.png": "/bengalTiger/static/media/flowers-l.3ee143943a339c8382f5.png",
@@ -19,10 +19,10 @@
     "static/media/bengal-tiger-cub.jpeg": "/bengalTiger/static/media/bengal-tiger-cub.0e4b719a5c6aafdf7906.jpeg",
     "index.html": "/bengalTiger/index.html",
     "main.b765d693.css.map": "/bengalTiger/static/css/main.b765d693.css.map",
-    "main.b3aeb199.js.map": "/bengalTiger/static/js/main.b3aeb199.js.map"
+    "main.66c4a030.js.map": "/bengalTiger/static/js/main.66c4a030.js.map"
   },
   "entrypoints": [
     "static/css/main.b765d693.css",
-    "static/js/main.b3aeb199.js"
+    "static/js/main.66c4a030.js"
   ]
 }
